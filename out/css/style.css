@@ -2,10 +2,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.header {
+    padding-top: 20px;
+}
+
 .lead {
     font-size: 24px;
 }
 
+.authorities {
+    padding-top: 20px;
+}
+
 .feedback {
-    padding-top: 30px;
+    padding-top: 20px;
 }
