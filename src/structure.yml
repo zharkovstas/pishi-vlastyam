@@ -1,0 +1,56 @@
+---
+sections:
+- name: Екатеринбург
+  columns:
+  - - name: Главное
+      tags:
+      - ekb
+      - main
+  - - name: Районные администрации
+      tags:
+      - ekb
+      - district-administration
+- name: Свердловская область
+  columns:
+  - - name: Главное
+      tags:
+      - sverdlovskaya-oblast
+      - main
+    - name: Уполномоченные
+      tags:
+      - sverdlovskaya-oblast
+      - ombudsman
+  - - name: Министерства
+      tags:
+      - sverdlovskaya-oblast
+      - ministry
+  - - name: Департаменты
+      tags:
+      - sverdlovskaya-oblast
+      - department
+    - name: Управления
+      tags:
+      - sverdlovskaya-oblast
+      - managers
+    - name: Прочее
+      tags:
+      - sverdlovskaya-oblast
+      - misc
+- name: Россия
+  columns:
+  - - name: Главное
+      tags:
+      - russia
+      - main
+  - - name: Министерства
+      tags:
+      - russia
+      - ministry
+  - - name: Федеральные службы
+      tags:
+      - russia
+      - service
+    - name: Федеральные агентства
+      tags:
+      - russia
+      - agency
