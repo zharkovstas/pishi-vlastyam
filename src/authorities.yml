@@ -488,8 +488,223 @@ authorities:
   tags:
   - russia
   - service
+- name: Таможенная (ФТС)
+  feedbackUrl: http://customs.ru/appeal
+  tags:
+  - russia
+  - service
+- name: По надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор)
+  feedbackUrl: https://rkn.gov.ru/treatments/ask-question/
+  tags:
+  - russia
+  - service
+- name: По аккредитации (Росаккредитация)
+  feedbackUrl: https://fsa.gov.ru/feedback/reception/appeal/
+  tags:
+  - russia
+  - service
+- name: Государственной статистики (Росстат)
+  feedbackUrl: https://www.gks.ru/appeal
+  tags:
+  - russia
+  - service
+- name: По интеллектуальной собственности (Роспатент)
+  feedbackUrl: https://rupto.ru/ru/client/appeal/
+  tags:
+  - russia
+  - service
+- name: Внешней разведки (СВР)
+  feedbackUrl: http://svr.gov.ru/letters/send.htm
+  tags:
+  - russia
+  - service
+- name: Безопасности (ФСБ)
+  feedbackUrl: http://search.fsb.ru/page_one.php
+  tags:
+  - russia
+  - service
+- name: Войск национальной гвардии (Росгвардия)
+  feedbackUrl: https://www.rosgvard.ru/ru/report?v=2
+  tags:
+  - russia
+  - service
+- name: Охраны (ФСО)
+  feedbackUrl: http://letters.fso.gov.ru/
+  tags:
+  - russia
+  - service
+- name: По финансовому мониторингу (Росфинмониторинг)
+  feedbackUrl: http://www.fedsfm.ru/citizen/submit-request
+  tags:
+  - russia
+  - service
+- name: Фельдъегерская (ГФС)
+  feedbackUrl: https://gfs.gov.ru/obrashcheniya-grazhdan/elektronnaya-priemnaya/
+  tags:
+  - russia
+  - service
+- name: Антимонопольная (ФАС)
+  feedbackUrl: https://fas.gov.ru/approaches/new
+  tags:
+  - russia
+  - service
+- name: Государственной регистрации, кадастра и картографии (Росреестр)
+  feedbackUrl: https://rosreestr.ru/wps/portal/cc_ib_references_citizens
+  tags:
+  - russia
+  - service
+- name: По надзору в сфере защиты прав потребителей и благополучия человека (Роспотребнадзор)
+  feedbackUrl: https://petition.rospotrebnadzor.ru/petition/oper_msg_create/
+  tags:
+  - russia
+  - service
+- name: По надзору в сфере здравоохранения (Росздравнадзор)
+  feedbackUrl: https://www.roszdravnadzor.ru/feedbackbutton
+  tags:
+  - russia
+  - service
+- name: По надзору в сфере образования и науки (Рособрнадзор)
+  feedbackUrl: http://www.obrnadzor.gov.ru/ru/open_government/reception/
+  tags:
+  - russia
+  - service
+- name: По экологическому, технологическому и атомному надзору (Ростехнадзор)
+  feedbackUrl: http://gosnadzor.ru/public/reception/feedback/form/
+  tags:
+  - russia
+  - service
+- name: По делам СНГ, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству (Россотрудничество)
+  feedbackUrl: http://rs.gov.ru/ru/contacts/feedbacks/new
+  tags:
+  - russia
+  - agency
 - name: Водных ресурсов (Росводресурсы)
   feedbackUrl: http://voda.mnr.gov.ru/treatment/form/
   tags:
   - russia
   - agency
+- name: Лесного хозяйства (Рослесхоз)
+  feedbackUrl: http://rosleshoz.gov.ru/statements/individual
+  tags:
+  - russia
+  - agency
+- name: По недропользованию
+  feedbackUrl: http://www.rosnedra.gov.ru/?page=feedback
+  tags:
+  - russia
+  - agency
+- name: По техническому регулированию и метрологии (Росстандарт)
+  feedbackUrl: https://www.gost.ru/portal/gost/home/feedback/faq/question
+  tags:
+  - russia
+  - agency
+- name: По рыболовству (Росрыболовство)
+  feedbackUrl: http://www.fish.gov.ru/obrashcheniya-grazhdan/napisat-obrashchenie
+  tags:
+  - russia
+  - agency
+- name: Воздушного транспорта (Росавиация)
+  feedbackUrl: https://favt.ru/obrawenija-grazhdan-obwestvennaja-priemnaja/
+  tags:
+  - russia
+  - agency
+- name: Дорожное (Росавтодор)
+  feedbackUrl: https://rosavtodor.ru/obshestvennaya-priemnaya
+  tags:
+  - russia
+  - agency
+- name: Железнодорожного транспорта
+  feedbackUrl: http://www.roszeldor.ru/appeals
+  tags:
+  - russia
+  - agency
+- name: Морского и речного транспорта
+  feedbackUrl: http://www.morflot.ru/obch_priemnaya.html
+  tags:
+  - russia
+  - agency
+- name: Управлению государственным имуществом (Росимущество)
+  feedbackUrl: http://www.rosim.ru/contacts/requests/send
+  tags:
+  - russia
+  - agency
+- name: Печати и массовым коммуникациям (Роспечать)
+  feedbackUrl: http://www.fapmc.ru/rospechat/rospechat/request/request.html
+  tags:
+  - russia
+  - agency
+- name: Связи (Россвязь)
+  feedbackUrl: https://rossvyaz.ru/feedback
+  tags:
+  - russia
+  - agency
+- name: По туризму (Ростуризм)
+  feedbackUrl: https://www.russiatourism.ru/feedback/
+  tags:
+  - russia
+  - agency
+- name: Архивное (Росархив)
+  feedbackUrl: http://archives.ru/feedback.shtml
+  tags:
+  - russia
+  - agency
+- name: По государственным резервам (Росрезерв)
+  feedbackUrl: https://www.rosreserv.ru/feedback
+  tags:
+  - russia
+  - agency
+- name: Медико-биологическое (ФМБА)
+  feedbackUrl: http://appeal.fmbaros.ru/
+  tags:
+  - russia
+  - agency
+- name: По делам молодежи (Росмолодёжь)
+  feedbackUrl: https://fadm.gov.ru/agency/feedback/?tab=site
+  tags:
+  - russia
+  - agency
+- name: По делам национальностей (ФАДН)
+  feedbackUrl: http://fadn.gov.ru/reception/appeals/new
+  tags:
+  - russia
+  - agency
+- name: По атомной энергии (Росатом)
+  feedbackUrl: https://rosatom.ru/about/feedback/
+  tags:
+  - russia
+  - corporation
+- name: По космической деятельности (Роскосмос)
+  feedbackUrl: https://www.roscosmos.ru/107/
+  tags:
+  - russia
+  - corporation
+- name: Пенсионный (ПФР)
+  feedbackUrl: https://es.pfrf.ru/appeal
+  tags:
+  - russia
+  - fund
+- name: Обязательного медицинского страхования (ФОМС)
+  feedbackUrl: http://www.ffoms.ru/for-citizens/feedback/
+  tags:
+  - russia
+  - fund
+- name: Социального страхования (ФСС)
+  feedbackUrl: https://fss.ru/ru/fund/feedback/index.shtml
+  tags:
+  - russia
+  - fund
+- name: Федеральное казначейство
+  feedbackUrl: http://www.roskazna.ru/priem-obrashhenij/otpravit-obrashchenie/?can=1
+  tags:
+  - russia
+  - misc
+- name: Главное управление специальных программ Президента (ГУСП)
+  feedbackUrl: http://www.gusp.gov.ru/pages/gusp/3734/send_form/index.shtml
+  tags:
+  - russia
+  - misc
+- name: Управление делами Президента
+  feedbackUrl: https://udprf.ru/content/kontaktnaya-informaciya
+  tags:
+  - russia
+  - misc

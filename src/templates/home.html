@@ -15,7 +15,13 @@
                     {% for entry in column %}
                         <h3>{{ entry["name"] }}</h3>
                         {% for authority in entry["authorities"] %}
-                            <p><a href="{{ authority["feedbackUrl"] }}" target="_blank" rel="noopener">{{ authority["name"] }}</a></p>
+                            <p>
+                                {% if authority["feedbackUrl"] %}
+                                <a href="{{ authority["feedbackUrl"] }}" target="_blank" rel="noopener">{{ authority["name"] }}</a>
+                                {% else %}
+                                {{ authority["name"] }}
+                                {% endif %}
+                            </p>
                         {% endfor %}
                     {% endfor %}
                 </div>

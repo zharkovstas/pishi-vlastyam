@@ -42,7 +42,7 @@ sections:
       tags:
       - russia
       - main
-  - - name: Министерства
+    - name: Министерства
       tags:
       - russia
       - ministry
@@ -50,7 +50,19 @@ sections:
       tags:
       - russia
       - service
-    - name: Федеральные агентства
+  - - name: Федеральные агентства
       tags:
       - russia
       - agency
+    - name: Фонды
+      tags:
+      - russia
+      - fund
+    - name: Госкорпорации
+      tags:
+      - russia
+      - corporation
+    - name: Прочее
+      tags:
+      - russia
+      - misc
