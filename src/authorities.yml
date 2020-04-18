@@ -1,0 +1,495 @@
+---
+authorities:
+- name: Администрация
+  feedbackUrl: https://xn--80acgfbsl1azdqr.xn--p1ai/%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0/%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F
+  tags:
+  - ekb
+  - main
+- name: Городская дума
+  feedbackUrl: https://www.egd.ru/accept/requests/_add
+  tags:
+  - ekb
+  - main
+- name: Общественная палата
+  feedbackUrl: http://xn--80aaa6bsv.xn--80acgfbsl1azdqr.xn--p1ai/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B/%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B
+  tags:
+  - ekb
+  - main
+- name: Избирательная комиссия
+  feedbackUrl: http://izkom.ekburg.ru/contacts/#sendform
+  tags:
+  - ekb
+  - main
+- name: Управление МВД
+  feedbackUrl: https://66.xn--b1aew.xn--p1ai/request_main
+  tags:
+  - ekb
+  - main
+- name: Верх-Исетский
+  feedbackUrl: http://xn----ctbjbobhg4cmbl8a.xn--80acgfbsl1azdqr.xn--p1ai/%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D1%8F/%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F
+  tags:
+  - ekb
+  - district-administration
+- name: Железнодорожный
+  feedbackUrl: http://xn--d1abacdeqluciba1a2o.xn--80acgfbsl1azdqr.xn--p1ai/obrashcheniya-grazhdan/%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F
+  tags:
+  - ekb
+  - district-administration
+- name: Кировский
+  feedbackUrl: http://xn--b1albebc0apl.xn--80acgfbsl1azdqr.xn--p1ai/obrashcheniya%20grazhdan/%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F
+  tags:
+  - ekb
+  - district-administration
+- name: Ленинский
+  feedbackUrl: http://xn--e1agaeddpb0b.xn--80acgfbsl1azdqr.xn--p1ai/%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE/%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F
+  tags:
+  - ekb
+  - district-administration
+- name: Октябрьский
+  feedbackUrl: https://xn--90aodbbvqig6h4a.xn--80acgfbsl1azdqr.xn--p1ai/obrashcheniya-grazhdan/%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F
+  tags:
+  - ekb
+  - district-administration
+- name: Орджоникидзевский
+  feedbackUrl: http://xn--b1adaedhfaekef5alc3a2a.xn--80acgfbsl1azdqr.xn--p1ai/obrashcheniya-grazhdan/%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F
+  tags:
+  - ekb
+  - district-administration
+- name: Чкаловский
+  feedbackUrl: http://xn--80aesebcfy2a8c.xn--80acgfbsl1azdqr.xn--p1ai/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F/%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F
+  tags:
+  - ekb
+  - district-administration
+- name: Губернатор
+  feedbackUrl: http://letters.midural.ru/webrec/
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Правительство
+  feedbackUrl: http://letters.midural.ru/webrec/
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Заксобрание
+  feedbackUrl: http://priem.zsso.ru/
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Счётная палата
+  feedbackUrl: http://spso66.ru/catalogue/7
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Общественная палата
+  feedbackUrl: http://www.opso66.ru/grazhdanam/zadat-vopros-obshchestvennoj-palate.html
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Избирательная комиссия
+  feedbackUrl: http://sverdlovsk.izbirkom.ru/obrashchenie.php
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Уставный суд
+  feedbackUrl: http://ustavsud.ur.ru/mail/sendmail.php
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Прокуратура
+  feedbackUrl: http://prokurat-so.ru/internet-reception
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Управление МВД
+  feedbackUrl: https://66.xn--b1aew.xn--p1ai/request_main
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Управление МЧС
+  feedbackUrl: https://66.mchs.gov.ru/
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Следственное управление СК
+  feedbackUrl: https://sverdlovsk.sledcom.ru/folder/873429
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: По правам человека
+  feedbackUrl: http://ombudsman.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ombudsman
+- name: По правам ребёнка
+  feedbackUrl: http://www.svdeti.ru/index.php?option=com_ckforms&view=ckforms&id=2&Itemid=29
+  tags:
+  - sverdlovskaya-oblast
+  - ombudsman
+- name: По правам предпринимателей
+  feedbackUrl: http://uzpp.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ombudsman
+- name: Финансов
+  feedbackUrl: http://minfin.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Образования и молодежной политики
+  feedbackUrl: https://minobraz.egov66.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Промышленности и науки
+  feedbackUrl: http://mpr.midural.ru/request/feedback/
+  tags: []
+- name: По управлению гос. имуществом
+  feedbackUrl: http://mugiso.midural.ru/feedback/new.php
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Социальной политики
+  feedbackUrl: https://msp.midural.ru/obrashcheniya-grajdan/e-priemnaya/otpravit-obrashcheniex.html
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Экономики и территориального развития
+  feedbackUrl: http://economy.midural.ru/content/obratitsya-v-ministerstvo
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: АПК и потребительского рынка
+  feedbackUrl: http://mcxso.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Международных и внешнеэкономических связей
+  feedbackUrl: http://mvs.gossaas.egov66.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Здравоохранения
+  feedbackUrl: http://minzdrav.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Культуры
+  feedbackUrl: http://mkso.ru/feedback/question
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Энергетики и ЖКХ
+  feedbackUrl: http://energy.midural.ru/forma-obratnoj-svyazi/
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Природных ресурсов и экологии
+  feedbackUrl: http://mprso.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Транспорта и дорожного хозяйства
+  feedbackUrl: http://mtrans.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Строительства и развития инфраструктуры
+  feedbackUrl: http://minstroy.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Физкультуры и спорта
+  feedbackUrl: http://minsport.midural.ru/index.php/faq/mail
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Инвестиций и развития
+  feedbackUrl: http://mir.midural.ru/node/add/question?destination=questions
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: Общественной безопасности
+  feedbackUrl: http://security.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - ministry
+- name: По обеспечению деятельности мировых судей
+  feedbackUrl: https://ej.sudrf.ru/letters?fromOa=66AG0000
+  tags:
+  - sverdlovskaya-oblast
+  - department
+- name: По труду и занятости
+  feedbackUrl: https://szn-ural.ru/content/%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BE%D1%80%D0%BC%D0%B0_%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D1%8F
+  tags:
+  - sverdlovskaya-oblast
+  - department
+- name: По охране, контролю и регулированию использования животного мира
+  feedbackUrl: http://dozhm.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - department
+- name: Госзакупок
+  feedbackUrl: http://goszakaz.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - department
+- name: Ветеринарии
+  feedbackUrl: http://vet.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - department
+- name: Государственного жилищного и строительного надзора
+  feedbackUrl: http://nadzor.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - department
+- name: Информационной политики
+  feedbackUrl: http://dip.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - department
+- name: Противодействия коррупции и контроля
+  feedbackUrl: http://anticorruption.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - department
+- name: Информатизации и связи
+  feedbackUrl: https://dis.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - department
+- name: Делами губернатора и правительства
+  feedbackUrl: http://upravdel.midural.ru/letters/14-article/182-outback-2
+  tags:
+  - sverdlovskaya-oblast
+  - department
+- name: ЗАГС
+  feedbackUrl: https://zags.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - managers
+- name: Архивами
+  feedbackUrl: http://uprarchives.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - managers
+- name: Государственной охраны объектов культурного наследия
+  feedbackUrl: https://okn.midural.ru/internetpriemforma.html
+  tags:
+  - sverdlovskaya-oblast
+  - managers
+- name: Региональная энергетическая комиссия
+  feedbackUrl: http://rek.midural.ru/faq/ask
+  tags:
+  - sverdlovskaya-oblast
+  - misc
+- name: Президент
+  feedbackUrl: http://letters.kremlin.ru/letters/send
+  tags:
+  - russia
+  - main
+- name: Правительство
+  feedbackUrl: http://services.government.ru/letters/form/
+  tags:
+  - russia
+  - main
+- name: Госдума
+  feedbackUrl: https://priemnaya.duma.gov.ru/ru/message/
+  tags:
+  - russia
+  - main
+- name: Совет Федерации
+  feedbackUrl: http://pisma.council.gov.ru/send_anonymous/
+  tags:
+  - russia
+  - main
+- name: Генеральная прокуратура
+  feedbackUrl: https://ipriem.genproc.gov.ru/contacts/ipriem/send/
+  tags:
+  - russia
+  - main
+- name: Уполномоченный по правам человека
+  feedbackUrl: http://ombudsmanrf.org/contact/form
+  tags:
+  - russia
+  - main
+- name: Счётная палата
+  feedbackUrl: http://audit.gov.ru/support/
+  tags:
+  - russia
+  - main
+- name: Центризбирком
+  feedbackUrl: http://www.cikrf.ru/reception/citizenRequest.php
+  tags:
+  - russia
+  - main
+- name: Следственный комитет
+  feedbackUrl: https://sledcom.ru/reception
+  tags:
+  - russia
+  - main
+- name: Внутренних дел
+  feedbackUrl: https://xn--b1aew.xn--p1ai/request_main
+  tags:
+  - russia
+  - ministry
+- name: По чрезвычайным ситуациям
+  feedbackUrl: http://mchs.gov.ru/
+  tags:
+  - russia
+  - ministry
+- name: Иностранных дел
+  feedbackUrl: https://lk.mid.ru/index.php?he4u=image&pIm=anon
+  tags:
+  - russia
+  - ministry
+- name: Обороны
+  feedbackUrl: https://lkg.mil.ru/appeal/createWithoutReg
+  tags:
+  - russia
+  - ministry
+- name: Юстиции
+  feedbackUrl: https://minjust.ru/electronic-appeal/email
+  tags:
+  - russia
+  - ministry
+- name: Здравоохранения
+  feedbackUrl: https://www.rosminzdrav.ru/reception/appeals/new
+  tags:
+  - russia
+  - ministry
+- name: Культуры
+  feedbackUrl: http://www.mkrf.ru/desk/choice_of_topic/
+  tags:
+  - russia
+  - ministry
+- name: Науки и высшего образования
+  feedbackUrl: https://www.minobrnauki.gov.ru/ru/reception/appealnew/
+  tags:
+  - russia
+  - ministry
+- name: Природных ресурсов и экологии
+  feedbackUrl: http://www.mnr.gov.ru/open_ministry/reference/ask/
+  tags:
+  - russia
+  - ministry
+- name: Промышленности и торговли
+  feedbackUrl: http://minpromtorg.gov.ru/open_ministry/treatment/contacts/
+  tags:
+  - russia
+  - ministry
+- name: Просвещения
+  feedbackUrl: https://open.edu.gov.ru/appeals/e-send/send/
+  tags:
+  - russia
+  - ministry
+- name: По развитию Дальнего Востока и Арктики
+  feedbackUrl: https://minvr.ru/obshchestvennaya-priemnaya/elektronnaya-forma-obrashcheniya/
+  tags:
+  - russia
+  - ministry
+- name: Сельского хозяйства
+  feedbackUrl: http://mcx.ru/feedback/
+  tags:
+  - russia
+  - ministry
+- name: Спорта
+  feedbackUrl: http://feedback.minsport.gov.ru/
+  tags:
+  - russia
+  - ministry
+- name: Строительства и ЖКХ
+  feedbackUrl: https://www.minstroyrf.ru/contact/?accept=Y
+  tags:
+  - russia
+  - ministry
+- name: Транспорта
+  feedbackUrl: https://www.mintrans.ru/obrashcheniya-grazhdan/reception/form
+  tags:
+  - russia
+  - ministry
+- name: Труда и социальной защиты
+  feedbackUrl: https://rosmintrud.ru/reception/form
+  tags:
+  - russia
+  - ministry
+- name: Финансов
+  feedbackUrl: https://www.minfin.ru/ru/appeal/?agree_4=1
+  tags:
+  - russia
+  - ministry
+- name: Цифрового развития, связи и массовых коммуникаций
+  feedbackUrl: https://digital.gov.ru/ru/appeals/form/
+  tags:
+  - russia
+  - ministry
+- name: Экономического развития
+  feedbackUrl: https://www.economy.gov.ru/material/obrashcheniya_grazhdan/otpravit_obrashchenie/
+  tags:
+  - russia
+  - ministry
+- name: Энергетики
+  feedbackUrl: https://minenergo.gov.ru/contacts/reception/order/feedback
+  tags:
+  - russia
+  - ministry
+- name: По военно-техническому сотрудничеству (ФСВТС)
+  feedbackUrl: http://www.fsvts.gov.ru/priemnaya.nsf/(CreateDoc19)?OpenAgent
+  tags:
+  - russia
+  - service
+- name: По техническому и экспортному контролю (ФСТЭК)
+  feedbackUrl: https://fstec.ru/kontakty
+  tags:
+  - russia
+  - service
+- name: Исполнения наказаний (ФСИН)
+  feedbackUrl: http://fsin.su/reception/
+  tags:
+  - russia
+  - service
+- name: Судебных приставов (ФССП)
+  feedbackUrl: http://fssprus.ru/form/
+  tags:
+  - russia
+  - service
+- name: По гидрометеорологии и мониторингу окружающей среды (Росгидромет)
+  feedbackUrl: http://www.meteorf.ru/about/appeals/form/
+  tags:
+  - russia
+  - service
+- name: По надзору в сфере природопользования (Росприроднадзор)
+  feedbackUrl: https://rpn.gov.ru/petition/
+  tags:
+  - russia
+  - service
+- name: По ветеринарному и фитосанитарному надзору (Россельхознадзор)
+  feedbackUrl: http://fsvps.ru/ereception/appeals/physicalPerson
+  tags:
+  - russia
+  - service
+- name: По надзору в сфере транспорта (Ространснадзор)
+  feedbackUrl: https://rostransnadzor.ru/obrashheniya-grazhdan/Napisat_obraschenie
+  tags:
+  - russia
+  - service
+- name: По труду и занятости (Роструд)
+  feedbackUrl: https://www.rostrud.ru/room/obrashcheniya-grazhdan/kremlin/
+  tags:
+  - russia
+  - service
+- name: Налоговая (ФНС)
+  feedbackUrl: https://www.nalog.ru/rn77/service/obr_fts/other/fl/
+  tags:
+  - russia
+  - service
+- name: По регулированию алкогольного рынка (ФСРАР)
+  feedbackUrl: http://www.fsrar.ru/feedback
+  tags:
+  - russia
+  - service
+- name: Водных ресурсов (Росводресурсы)
+  feedbackUrl: http://voda.mnr.gov.ru/treatment/form/
+  tags:
+  - russia
+  - agency

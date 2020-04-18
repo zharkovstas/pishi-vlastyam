@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="header">
+        <h1>Пиши властям</h1>
+        <p class="lead">По&nbsp;<a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&cwi=0" target="_blank" rel="noopener">закону</a> вы можете обратиться в&nbsp;любой орган власти и&nbsp;получить ответ
+            по&nbsp;существу в&nbsp;течение 30&nbsp;дней. Это можно сделать через интернет. </p>
+    </div>
+    <section class="authorities">
+        {% for section in sections %}
+        <h2>{{ section["name"] }}</h2>
+        <div class="row">
+            {% for column in section["columns"] %}
+                <div class="col-md-4">
+                    {% for entry in column %}
+                        <h3>{{ entry["name"] }}</h3>
+                        {% for authority in entry["authorities"] %}
+                            <p><a href="{{ authority["feedbackUrl"] }}" target="_blank" rel="noopener">{{ authority["name"] }}</a></p>
+                        {% endfor %}
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div> 
+        {% endfor %}
+    </section>
+    <section class="feedback">
+        <p>Обратная связь: <a href="mailto:zharkovstas@gmail.com">zharkovstas@gmail.com</a></p>
+    </section>
+{% endblock %}
