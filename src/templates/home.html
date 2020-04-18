@@ -1,11 +1,12 @@
 {% extends "layout.html" %}
+{% block title %}Пиши властям — электронные обращения в органы власти через интернет{% endblock %}
 {% block content %}
-    <div class="header">
+    <header class="header">
         <h1>Пиши властям</h1>
-        <p class="lead">По&nbsp;<a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&cwi=0" target="_blank" rel="noopener">закону</a> вы можете обратиться в&nbsp;любой орган власти и&nbsp;получить ответ
+        <p class="lead">По&nbsp;<a href="/law">закону</a> вы можете обратиться в&nbsp;любой орган власти и&nbsp;получить ответ
             по&nbsp;существу в&nbsp;течение 30&nbsp;дней. Это можно сделать через интернет. </p>
-    </div>
-    <section class="authorities">
+    </header>
+    <section class="authorities" id="authorities">
         {% for section in sections %}
         <h2>{{ section["name"] }}</h2>
         <div class="row">
