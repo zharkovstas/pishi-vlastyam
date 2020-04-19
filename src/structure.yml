@@ -42,26 +42,54 @@ sections:
       tags:
       - russia
       - main
-    - name: Министерства
+    - name: Безопасность и право
       tags:
       - russia
-      - ministry
-  - - name: Федеральные службы
+      - security
+    - name: Защита прав
       tags:
       - russia
-      - service
-  - - name: Федеральные агентства
+      - rights
+    - name: Здравоохранение
       tags:
       - russia
-      - agency
-    - name: Фонды
+      - health
+    - name: Иностранные дела
       tags:
       - russia
-      - fund
-    - name: Госкорпорации
+      - foreign
+  - - name: ИТ, связь, СМИ
       tags:
       - russia
-      - corporation
+      - communications
+    - name: Наука и образование
+      tags:
+      - russia
+      - science-education
+    - name: Природные ресурсы и экология
+      tags:
+      - russia
+      - natural-resources
+    - name: Сельское хозяйство
+      tags:
+      - russia
+      - agriculture
+    - name: Социальная политика
+      tags:
+      - russia
+      - social
+    - name: Транспорт
+      tags:
+      - russia
+      - transport
+  - - name: Экономика
+      tags:
+      - russia
+      - economics
+    - name: Энергетика
+      tags:
+      - russia
+      - energy
     - name: Прочее
       tags:
       - russia

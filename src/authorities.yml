@@ -262,7 +262,7 @@ authorities:
   feedbackUrl: http://upravdel.midural.ru/letters/14-article/182-outback-2
   tags:
   - sverdlovskaya-oblast
-  - department
+  - managers
 - name: ЗАГС
   feedbackUrl: https://zags.midural.ru/faq/ask
   tags:
@@ -307,12 +307,12 @@ authorities:
   feedbackUrl: https://ipriem.genproc.gov.ru/contacts/ipriem/send/
   tags:
   - russia
-  - main
+  - security
 - name: Уполномоченный по правам человека
   feedbackUrl: http://ombudsmanrf.org/contact/form
   tags:
   - russia
-  - main
+  - rights
 - name: Счётная палата
   feedbackUrl: http://audit.gov.ru/support/
   tags:
@@ -327,382 +327,456 @@ authorities:
   feedbackUrl: https://sledcom.ru/reception
   tags:
   - russia
-  - main
-- name: Внутренних дел
+  - security
+- name: Министерство внутренних дел
   feedbackUrl: https://xn--b1aew.xn--p1ai/request_main
   tags:
   - russia
   - ministry
-- name: По чрезвычайным ситуациям
+  - security
+- name: Министерство по чрезвычайным ситуациям
   feedbackUrl: http://mchs.gov.ru/
   tags:
   - russia
   - ministry
-- name: Иностранных дел
+  - security
+- name: Министерство иностранных дел
   feedbackUrl: https://lk.mid.ru/index.php?he4u=image&pIm=anon
   tags:
   - russia
   - ministry
-- name: Обороны
+  - foreign
+- name: Министерство обороны
   feedbackUrl: https://lkg.mil.ru/appeal/createWithoutReg
   tags:
   - russia
   - ministry
-- name: Юстиции
+  - security
+- name: Министерство юстиции
   feedbackUrl: https://minjust.ru/electronic-appeal/email
   tags:
   - russia
   - ministry
-- name: Здравоохранения
+  - security
+- name: Министерство здравоохранения
   feedbackUrl: https://www.rosminzdrav.ru/reception/appeals/new
   tags:
   - russia
   - ministry
-- name: Культуры
+  - health
+- name: Министерство культуры
   feedbackUrl: http://www.mkrf.ru/desk/choice_of_topic/
   tags:
   - russia
   - ministry
-- name: Науки и высшего образования
+  - misc
+- name: Министерство науки и высшего образования
   feedbackUrl: https://www.minobrnauki.gov.ru/ru/reception/appealnew/
   tags:
   - russia
   - ministry
-- name: Природных ресурсов и экологии
+  - science-education
+- name: Министерство природных ресурсов и экологии
   feedbackUrl: http://www.mnr.gov.ru/open_ministry/reference/ask/
   tags:
   - russia
   - ministry
-- name: Промышленности и торговли
+  - natural-resources
+- name: Министерство промышленности и торговли
   feedbackUrl: http://minpromtorg.gov.ru/open_ministry/treatment/contacts/
   tags:
   - russia
   - ministry
-- name: Просвещения
+  - economics
+- name: Министерство просвещения
   feedbackUrl: https://open.edu.gov.ru/appeals/e-send/send/
   tags:
   - russia
   - ministry
-- name: По развитию Дальнего Востока и Арктики
+  - science-education
+- name: Министерство по развитию Дальнего Востока и Арктики
   feedbackUrl: https://minvr.ru/obshchestvennaya-priemnaya/elektronnaya-forma-obrashcheniya/
   tags:
   - russia
   - ministry
-- name: Сельского хозяйства
+  - misc
+- name: Министерство сельского хозяйства
   feedbackUrl: http://mcx.ru/feedback/
   tags:
   - russia
   - ministry
-- name: Спорта
+  - agriculture
+- name: Министерство спорта
   feedbackUrl: http://feedback.minsport.gov.ru/
   tags:
   - russia
   - ministry
-- name: Строительства и ЖКХ
+  - misc
+- name: Министерство строительства и ЖКХ
   feedbackUrl: https://www.minstroyrf.ru/contact/?accept=Y
   tags:
   - russia
   - ministry
-- name: Транспорта
+  - misc
+- name: Министерство транспорта
   feedbackUrl: https://www.mintrans.ru/obrashcheniya-grazhdan/reception/form
   tags:
   - russia
   - ministry
-- name: Труда и социальной защиты
+  - transport
+- name: Министерство труда и социальной защиты
   feedbackUrl: https://rosmintrud.ru/reception/form
   tags:
   - russia
   - ministry
-- name: Финансов
+  - social
+- name: Министерство финансов
   feedbackUrl: https://www.minfin.ru/ru/appeal/?agree_4=1
   tags:
   - russia
   - ministry
-- name: Цифрового развития, связи и массовых коммуникаций
+  - economics
+- name: Министерство цифрового развития, связи и массовых коммуникаций
   feedbackUrl: https://digital.gov.ru/ru/appeals/form/
   tags:
   - russia
   - ministry
-- name: Экономического развития
+  - communications
+- name: Министерство экономического развития
   feedbackUrl: https://www.economy.gov.ru/material/obrashcheniya_grazhdan/otpravit_obrashchenie/
   tags:
   - russia
   - ministry
-- name: Энергетики
+  - economics
+- name: Министерство энергетики
   feedbackUrl: https://minenergo.gov.ru/contacts/reception/order/feedback
   tags:
   - russia
   - ministry
-- name: По военно-техническому сотрудничеству (ФСВТС)
+  - energy
+- name: Служба по военно-техническому сотрудничеству (ФСВТС)
   feedbackUrl: http://www.fsvts.gov.ru/priemnaya.nsf/(CreateDoc19)?OpenAgent
   tags:
   - russia
   - service
-- name: По техническому и экспортному контролю (ФСТЭК)
+  - security
+- name: Служба по техническому и экспортному контролю (ФСТЭК)
   feedbackUrl: https://fstec.ru/kontakty
   tags:
   - russia
   - service
-- name: Исполнения наказаний (ФСИН)
+  - security
+- name: Служба исполнения наказаний (ФСИН)
   feedbackUrl: http://fsin.su/reception/
   tags:
   - russia
   - service
-- name: Судебных приставов (ФССП)
+  - security
+- name: Служба судебных приставов (ФССП)
   feedbackUrl: http://fssprus.ru/form/
   tags:
   - russia
   - service
-- name: По гидрометеорологии и мониторингу окружающей среды (Росгидромет)
+  - security
+- name: Служба по гидрометеорологии и мониторингу окружающей среды (Росгидромет)
   feedbackUrl: http://www.meteorf.ru/about/appeals/form/
   tags:
   - russia
   - service
-- name: По надзору в сфере природопользования (Росприроднадзор)
+  - natural-resources
+- name: Служба по надзору в сфере природопользования (Росприроднадзор)
   feedbackUrl: https://rpn.gov.ru/petition/
   tags:
   - russia
   - service
-- name: По ветеринарному и фитосанитарному надзору (Россельхознадзор)
+  - natural-resources
+- name: Служба по ветеринарному и фитосанитарному надзору (Россельхознадзор)
   feedbackUrl: http://fsvps.ru/ereception/appeals/physicalPerson
   tags:
   - russia
   - service
-- name: По надзору в сфере транспорта (Ространснадзор)
+  - agriculture
+- name: Служба по надзору в сфере транспорта (Ространснадзор)
   feedbackUrl: https://rostransnadzor.ru/obrashheniya-grazhdan/Napisat_obraschenie
   tags:
   - russia
   - service
-- name: По труду и занятости (Роструд)
+  - transport
+- name: Служба по труду и занятости (Роструд)
   feedbackUrl: https://www.rostrud.ru/room/obrashcheniya-grazhdan/kremlin/
   tags:
   - russia
   - service
-- name: Налоговая (ФНС)
+  - social
+- name: Налоговая служба (ФНС)
   feedbackUrl: https://www.nalog.ru/rn77/service/obr_fts/other/fl/
   tags:
   - russia
   - service
-- name: По регулированию алкогольного рынка (ФСРАР)
+  - economics
+- name: Служба по регулированию алкогольного рынка (ФСРАР)
   feedbackUrl: http://www.fsrar.ru/feedback
   tags:
   - russia
   - service
-- name: Таможенная (ФТС)
+  - economics
+- name: Таможенная служба (ФТС)
   feedbackUrl: http://customs.ru/appeal
   tags:
   - russia
   - service
-- name: По надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор)
+  - security
+  - economics
+- name: Служба по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор)
   feedbackUrl: https://rkn.gov.ru/treatments/ask-question/
   tags:
   - russia
   - service
-- name: По аккредитации (Росаккредитация)
+  - communications
+- name: Служба по аккредитации (Росаккредитация)
   feedbackUrl: https://fsa.gov.ru/feedback/reception/appeal/
   tags:
   - russia
   - service
-- name: Государственной статистики (Росстат)
+  - misc
+- name: Служба государственной статистики (Росстат)
   feedbackUrl: https://www.gks.ru/appeal
   tags:
   - russia
   - service
-- name: По интеллектуальной собственности (Роспатент)
+  - misc
+- name: Служба по интеллектуальной собственности (Роспатент)
   feedbackUrl: https://rupto.ru/ru/client/appeal/
   tags:
   - russia
   - service
-- name: Внешней разведки (СВР)
+  - economics
+- name: Служба внешней разведки (СВР)
   feedbackUrl: http://svr.gov.ru/letters/send.htm
   tags:
   - russia
   - service
-- name: Безопасности (ФСБ)
+  - security
+- name: Служба безопасности (ФСБ)
   feedbackUrl: http://search.fsb.ru/page_one.php
   tags:
   - russia
   - service
-- name: Войск национальной гвардии (Росгвардия)
+  - security
+- name: Служба войск национальной гвардии (Росгвардия)
   feedbackUrl: https://www.rosgvard.ru/ru/report?v=2
   tags:
   - russia
   - service
-- name: Охраны (ФСО)
+  - security
+- name: Служба охраны (ФСО)
   feedbackUrl: http://letters.fso.gov.ru/
   tags:
   - russia
   - service
-- name: По финансовому мониторингу (Росфинмониторинг)
+  - security
+- name: Служба по финансовому мониторингу (Росфинмониторинг)
   feedbackUrl: http://www.fedsfm.ru/citizen/submit-request
   tags:
   - russia
   - service
-- name: Фельдъегерская (ГФС)
+  - economics
+- name: Фельдъегерская служба (ГФС)
   feedbackUrl: https://gfs.gov.ru/obrashcheniya-grazhdan/elektronnaya-priemnaya/
   tags:
   - russia
   - service
-- name: Антимонопольная (ФАС)
+  - security
+- name: Антимонопольная служба (ФАС)
   feedbackUrl: https://fas.gov.ru/approaches/new
   tags:
   - russia
   - service
-- name: Государственной регистрации, кадастра и картографии (Росреестр)
+  - economics
+- name: Служба государственной регистрации, кадастра и картографии (Росреестр)
   feedbackUrl: https://rosreestr.ru/wps/portal/cc_ib_references_citizens
   tags:
   - russia
   - service
-- name: По надзору в сфере защиты прав потребителей и благополучия человека (Роспотребнадзор)
+  - misc
+- name: Служба по надзору в сфере защиты прав потребителей и благополучия человека (Роспотребнадзор)
   feedbackUrl: https://petition.rospotrebnadzor.ru/petition/oper_msg_create/
   tags:
   - russia
   - service
-- name: По надзору в сфере здравоохранения (Росздравнадзор)
+  - rights
+- name: Служба по надзору в сфере здравоохранения (Росздравнадзор)
   feedbackUrl: https://www.roszdravnadzor.ru/feedbackbutton
   tags:
   - russia
   - service
-- name: По надзору в сфере образования и науки (Рособрнадзор)
+  - health
+- name: Служба по надзору в сфере образования и науки (Рособрнадзор)
   feedbackUrl: http://www.obrnadzor.gov.ru/ru/open_government/reception/
   tags:
   - russia
   - service
-- name: По экологическому, технологическому и атомному надзору (Ростехнадзор)
+  - science-education
+- name: Служба по экологическому, технологическому и атомному надзору (Ростехнадзор)
   feedbackUrl: http://gosnadzor.ru/public/reception/feedback/form/
   tags:
   - russia
   - service
-- name: По делам СНГ, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству (Россотрудничество)
+  - natural-resources
+- name: Агентство по делам СНГ, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству (Россотрудничество)
   feedbackUrl: http://rs.gov.ru/ru/contacts/feedbacks/new
   tags:
   - russia
   - agency
-- name: Водных ресурсов (Росводресурсы)
+  - foreign
+- name: Агентство водных ресурсов (Росводресурсы)
   feedbackUrl: http://voda.mnr.gov.ru/treatment/form/
   tags:
   - russia
   - agency
-- name: Лесного хозяйства (Рослесхоз)
+  - natural-resources
+- name: Агентство лесного хозяйства (Рослесхоз)
   feedbackUrl: http://rosleshoz.gov.ru/statements/individual
   tags:
   - russia
   - agency
-- name: По недропользованию
+  - natural-resources
+- name: Агентство по недропользованию
   feedbackUrl: http://www.rosnedra.gov.ru/?page=feedback
   tags:
   - russia
   - agency
-- name: По техническому регулированию и метрологии (Росстандарт)
+  - natural-resources
+- name: Агентство по техническому регулированию и метрологии (Росстандарт)
   feedbackUrl: https://www.gost.ru/portal/gost/home/feedback/faq/question
   tags:
   - russia
   - agency
-- name: По рыболовству (Росрыболовство)
+  - misc
+- name: Агентство по рыболовству (Росрыболовство)
   feedbackUrl: http://www.fish.gov.ru/obrashcheniya-grazhdan/napisat-obrashchenie
   tags:
   - russia
   - agency
-- name: Воздушного транспорта (Росавиация)
+  - agriculture
+- name: Агентство воздушного транспорта (Росавиация)
   feedbackUrl: https://favt.ru/obrawenija-grazhdan-obwestvennaja-priemnaja/
   tags:
   - russia
   - agency
-- name: Дорожное (Росавтодор)
+  - transport
+- name: Дорожное агентство (Росавтодор)
   feedbackUrl: https://rosavtodor.ru/obshestvennaya-priemnaya
   tags:
   - russia
   - agency
-- name: Железнодорожного транспорта
+  - transport
+- name: Агентство железнодорожного транспорта
   feedbackUrl: http://www.roszeldor.ru/appeals
   tags:
   - russia
   - agency
-- name: Морского и речного транспорта
+  - transport
+- name: Агентство морского и речного транспорта
   feedbackUrl: http://www.morflot.ru/obch_priemnaya.html
   tags:
   - russia
   - agency
-- name: Управлению государственным имуществом (Росимущество)
+  - transport
+- name: Агентство по управлению государственным имуществом (Росимущество)
   feedbackUrl: http://www.rosim.ru/contacts/requests/send
   tags:
   - russia
   - agency
-- name: Печати и массовым коммуникациям (Роспечать)
+  - economics
+- name: Агентство по печати и массовым коммуникациям (Роспечать)
   feedbackUrl: http://www.fapmc.ru/rospechat/rospechat/request/request.html
   tags:
   - russia
   - agency
-- name: Связи (Россвязь)
+  - communications
+- name: Агентство связи (Россвязь)
   feedbackUrl: https://rossvyaz.ru/feedback
   tags:
   - russia
   - agency
-- name: По туризму (Ростуризм)
+  - communications
+- name: Агентство по туризму (Ростуризм)
   feedbackUrl: https://www.russiatourism.ru/feedback/
   tags:
   - russia
   - agency
-- name: Архивное (Росархив)
+  - misc
+- name: Архивное агентство (Росархив)
   feedbackUrl: http://archives.ru/feedback.shtml
   tags:
   - russia
   - agency
-- name: По государственным резервам (Росрезерв)
+  - misc
+- name: Агентство по государственным резервам (Росрезерв)
   feedbackUrl: https://www.rosreserv.ru/feedback
   tags:
   - russia
   - agency
-- name: Медико-биологическое (ФМБА)
+  - economics
+- name: Медико-биологическое агентство (ФМБА)
   feedbackUrl: http://appeal.fmbaros.ru/
   tags:
   - russia
   - agency
-- name: По делам молодежи (Росмолодёжь)
+  - health
+- name: Агентство по делам молодежи (Росмолодёжь)
   feedbackUrl: https://fadm.gov.ru/agency/feedback/?tab=site
   tags:
   - russia
   - agency
-- name: По делам национальностей (ФАДН)
+  - misc
+- name: Агентство по делам национальностей (ФАДН)
   feedbackUrl: http://fadn.gov.ru/reception/appeals/new
   tags:
   - russia
   - agency
-- name: По атомной энергии (Росатом)
+  - misc
+- name: Корпорация по атомной энергии (Росатом)
   feedbackUrl: https://rosatom.ru/about/feedback/
   tags:
   - russia
   - corporation
-- name: По космической деятельности (Роскосмос)
+  - energy
+- name: Корпорация по космической деятельности (Роскосмос)
   feedbackUrl: https://www.roscosmos.ru/107/
   tags:
   - russia
   - corporation
-- name: Пенсионный (ПФР)
+  - misc
+- name: Пенсионный фонд (ПФР)
   feedbackUrl: https://es.pfrf.ru/appeal
   tags:
   - russia
   - fund
-- name: Обязательного медицинского страхования (ФОМС)
+  - social
+- name: Фонд обязательного медицинского страхования (ФОМС)
   feedbackUrl: http://www.ffoms.ru/for-citizens/feedback/
   tags:
   - russia
   - fund
-- name: Социального страхования (ФСС)
+  - health
+- name: Фонд социального страхования (ФСС)
   feedbackUrl: https://fss.ru/ru/fund/feedback/index.shtml
   tags:
   - russia
   - fund
+  - social
 - name: Федеральное казначейство
   feedbackUrl: http://www.roskazna.ru/priem-obrashhenij/otpravit-obrashchenie/?can=1
   tags:
   - russia
-  - misc
+  - economics
 - name: Главное управление специальных программ Президента (ГУСП)
   feedbackUrl: http://www.gusp.gov.ru/pages/gusp/3734/send_form/index.shtml
   tags:
   - russia
-  - misc
+  - security
 - name: Управление делами Президента
   feedbackUrl: https://udprf.ru/content/kontaktnaya-informaciya
   tags:
