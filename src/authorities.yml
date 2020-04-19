@@ -60,6 +60,41 @@ authorities:
   tags:
   - ekb
   - district-administration
+- name: Водоканал
+  feedbackUrl: https://www.xn--80aadbki6adhshb.xn--p1ai/
+  tags:
+  - ekb
+  - enterprise
+- name: "Гортранс: автобусы"
+  feedbackUrl: http://www.urbus.ru/win/mail/
+  tags:
+  - ekb
+  - enterprise
+- name: "Гортранс: трамваи и троллейбусы"
+  feedbackUrl: http://www.ettu.ru/contacts/#review_block
+  tags:
+  - ekb
+  - enterprise
+- name: Лесничество
+  feedbackUrl: https://xn--b1afalnnktdk6c.xn--80acgfbsl1azdqr.xn--p1ai/zadat-vopros
+  tags:
+  - ekb
+  - enterprise
+- name: Метрополитен
+  feedbackUrl: http://metro-ektb.ru/feedback/
+  tags:
+  - ekb
+  - enterprise
+- name: Спецавтобаза
+  feedbackUrl: https://sab-ekb.ru/
+  tags:
+  - ekb
+  - enterprise
+- name: Хлебокомбинат
+  feedbackUrl: http://vseslav.org/section/contacts/
+  tags:
+  - ekb
+  - enterprise
 - name: Губернатор
   feedbackUrl: http://letters.midural.ru/webrec/
   tags:
@@ -87,6 +122,11 @@ authorities:
   - main
 - name: Избирательная комиссия
   feedbackUrl: http://sverdlovsk.izbirkom.ru/obrashchenie.php
+  tags:
+  - sverdlovskaya-oblast
+  - main
+- name: Областной суд
+  feedbackUrl: https://ej.sudrf.ru/letters?fromOa=66OS0000
   tags:
   - sverdlovskaya-oblast
   - main
@@ -303,6 +343,11 @@ authorities:
   tags:
   - russia
   - main
+- name: Общественная палата
+  feedbackUrl: https://eis.oprf.ru/send/treatment
+  tags:
+   - russia
+   - main
 - name: Генеральная прокуратура
   feedbackUrl: https://ipriem.genproc.gov.ru/contacts/ipriem/send/
   tags:
@@ -310,6 +355,16 @@ authorities:
   - security
 - name: Уполномоченный по правам человека
   feedbackUrl: http://ombudsmanrf.org/contact/form
+  tags:
+  - russia
+  - rights
+- name: Уполномоченный по правам ребёнка
+  feedbackUrl: http://deti.gov.ru/order/home
+  tags:
+  - russia
+  - rights
+- name: Уполномоченный по правам предпринимателей
+  feedbackUrl: http://ombudsmanbiz.ru/rabota-s-obrashhenijami/#1
   tags:
   - russia
   - rights
@@ -782,3 +837,8 @@ authorities:
   tags:
   - russia
   - misc
+- name: Совет по науке и образованию
+  feedbackUrl: http://science.gov.ru/obratnaya_svyaz/form/
+  tags:
+  - russia
+  - science-education
