@@ -28,11 +28,6 @@ def main(args):
      .stream(release=is_release, sections=sections)
      .dump('../out/index.html'))
 
-    Path("../out/law").mkdir(parents=True, exist_ok=True)
-    (env.get_template('law.html')
-     .stream(release=is_release, sections=sections)
-     .dump('../out/law/index.html'))
-
     copy_tree("./static", "../out")
 
 

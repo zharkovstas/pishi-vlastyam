@@ -17,3 +17,9 @@ body {
 .feedback {
     padding-top: 20px;
 }
+
+.law {
+    background-color: #eeeeee;
+    padding: 30px 30px 10px 30px;
+    font-size: 14px;
+}
