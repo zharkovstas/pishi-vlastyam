@@ -10,6 +10,10 @@ sections:
       tags:
       - ekb
       - district-administration
+  - - name: Муниципальные предприятия
+      tags:
+      - ekb
+      - enterprise
 - name: Свердловская область
   columns:
   - - name: Главное
