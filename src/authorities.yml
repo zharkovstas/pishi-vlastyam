@@ -71,7 +71,7 @@ authorities:
   - ekb
   - enterprise
 - name: "Гортранс: трамваи и троллейбусы"
-  feedbackUrl: http://www.ettu.ru/contacts/#review_block
+  feedbackUrl: http://www.ettu.ru/otzivi
   tags:
   - ekb
   - enterprise
@@ -842,3 +842,8 @@ authorities:
   tags:
   - russia
   - science-education
+- name: Банк России
+  feedbackUrl: https://www.cbr.ru/reception/
+  tags:
+  - russia
+  - economics
