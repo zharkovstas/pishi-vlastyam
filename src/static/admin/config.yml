@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: "src/static/img/uploads"
+public_folder: "/img/uploads"
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Authorities"
+        name: "authorities"
+        file: "src/authorities.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Authorities
+            name: authorities
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Feedback Url, name: feedbackUrl, widget: string}
+              - {label: Tags, name: tags, widget: list}
