@@ -15,8 +15,8 @@
                 <h2>Закон&nbsp;№59-ФЗ об&nbsp;обращениях граждан</h2>
                 <h3>Можно</h3>
                 <ul>
-                    <li>обратиться в&nbsp;органы власти<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&cwi=0#h89" target="_blank" rel="noopener">2</a></sup> в&nbsp;бумажном, электронном или&nbsp;устном виде<sup><a
-                                href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&rangeId=336419" target="_blank" rel="noopener">4.2</a></sup></li>
+                    <li>обратиться в&nbsp;органы власти<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&cwi=0#h89" target="_blank" rel="noopener">2</a></sup> в&nbsp;бумажном, электронном или&nbsp;устном
+                        виде<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&rangeId=336419" target="_blank" rel="noopener">4.2</a></sup></li>
                     <li>получить ответ по&nbsp;существу<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&rangeId=336420" target="_blank" rel="noopener">5.3</a></sup> в&nbsp;течение 30&nbsp;дней<sup><a
                                 href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&rangeId=336421" target="_blank" rel="noopener">12.1</a></sup></li>
                     <li>пожаловаться<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&rangeId=336422" target="_blank" rel="noopener">5.4</a></sup> на&nbsp;результат рассмотрения</li>
@@ -25,11 +25,12 @@
                 </ul>
                 <h3>Нельзя</h3>
                 <ul>
-                    <li>писать в&nbsp;обращении оскорбления, угрозы<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&rangeId=336424" target="_blank" rel="noopener">11.3</a></sup> и&nbsp;заведомо ложные сведения<sup><a
-                                href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&rangeId=336425" target="_blank" rel="noopener">16.2</a></sup></li>
+                    <li>писать в&nbsp;обращении оскорбления, угрозы<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&rangeId=336424" target="_blank" rel="noopener">11.3</a></sup> и&nbsp;заведомо ложные
+                        сведения<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&rangeId=336425" target="_blank" rel="noopener">16.2</a></sup></li>
                     <li>обжаловать в&nbsp;обращении судебное решение<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&rangeId=336426" target="_blank" rel="noopener">11.2</a></sup></li>
                 </ul>
-                <p>Запрещено преследовать граждан за&nbsp;обращения и&nbsp;разглашать их личные сведения.<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&cwi=0#h93" target="_blank" rel="noopener">6</a></sup></p>
+                <p>Запрещено преследовать граждан за&nbsp;обращения и&nbsp;разглашать их личные сведения.<sup><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&cwi=0#h93" target="_blank" rel="noopener">6</a></sup>
+                </p>
                 <p><a href="https://normativ.kontur.ru/document?moduleId=1&documentId=158860&cwi=0" target="_blank" rel="noopener">Полный текст закона</a></p>
             </div>
         </div>
@@ -61,4 +62,17 @@
 <section class="feedback">
     <p>Обратная связь: <a href="mailto:zharkovstas@gmail.com">zharkovstas@gmail.com</a></p>
 </section>
+{% if release %}
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>
+{% endif %}
 {% endblock %}
