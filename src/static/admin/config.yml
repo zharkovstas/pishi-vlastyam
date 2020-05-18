@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: zharkovstas/pishi-vlastyam
+  site_domain: cms.netlify.com
 media_folder: "src/static/img/uploads"
 public_folder: "/img/uploads"
 collections:
