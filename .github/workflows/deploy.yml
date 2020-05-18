@@ -1,0 +1,36 @@
+name: Generate static and deploy
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+        working-directory: ./src
+
+      - name: Generate static
+        run: python generate.py release
+        working-directory: ./src
+
+      - name: Deploy to Server
+        run: |
+          zip -r release.zip .
+          echo "${{ secrets.KEY }}" > deployer_id_rsa
+          chmod 400 deployer_id_rsa
+          scp -v -i deployer_id_rsa -o StrictHostKeyChecking=no -P ${{ secrets.PORT }} ./release.zip ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/C:/temp/pishi-vlastyam-releases
+          ssh -v -i deployer_id_rsa -o StrictHostKeyChecking=no -p ${{ secrets.PORT }} ${{ secrets.USERNAME }}@${{ secrets.HOST }} "7za x -aoa -oC:\temp\pishi-vlastyam-releases\release C:\temp\pishi-vlastyam-releases\release.zip && (robocopy C:\temp\pishi-vlastyam-releases\release C:\www\pishi-vlastyam /maxage:1 /e) ^& IF %ERRORLEVEL% LSS 8 SET ERRORLEVEL = 0"
+        working-directory: ./out
