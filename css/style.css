@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding-top: 20px;
+}
+
+.lead {
+    font-size: 24px;
+}
+
+.authorities {
+    padding-top: 20px;
+}
+
+.feedback {
+    padding-top: 20px;
+}
+
+.law {
+    background-color: #f5f5f5;
+    /*border-left: solid 2px #007bff;*/
+    padding: 30px 30px 10px 30px;
+    font-size: 14px;
+}
