@@ -60,19 +60,6 @@
     {% endfor %}
 </section>
 <section class="feedback">
-    <p>Обратная связь: <a href="mailto:zharkovstas@gmail.com">zharkovstas@gmail.com</a></p>
+    <p>Обратная связь: <a href="mailto:foil-scale-pebbly@duck.com">foil-scale-pebbly@duck.com</a></p>
 </section>
-{% if release %}
-<script>
-    if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-            if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                });
-            }
-        });
-    }
-</script>
-{% endif %}
 {% endblock %}

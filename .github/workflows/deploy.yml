@@ -4,17 +4,26 @@ on:
   push:
     branches: [ master ]
 
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   deploy:
-
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+
       - name: Set up Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
+          cache: "pip"
+          cache-dependency-path: "src/requirements.txt"
 
       - name: Install dependencies
         run: |
@@ -26,11 +35,10 @@ jobs:
         run: python generate.py release
         working-directory: ./src
 
-      - name: Deploy to Server
-        run: |
-          zip -r release.zip .
-          echo "${{ secrets.KEY }}" > deployer_id_rsa
-          chmod 400 deployer_id_rsa
-          scp -v -i deployer_id_rsa -o StrictHostKeyChecking=no -P ${{ secrets.PORT }} ./release.zip ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/C:/temp/pishi-vlastyam-releases
-          ssh -v -i deployer_id_rsa -o StrictHostKeyChecking=no -p ${{ secrets.PORT }} ${{ secrets.USERNAME }}@${{ secrets.HOST }} "7za x -aoa -oC:\temp\pishi-vlastyam-releases\release C:\temp\pishi-vlastyam-releases\release.zip && (robocopy C:\temp\pishi-vlastyam-releases\release C:\www\pishi-vlastyam /maxage:1 /e) ^& IF %ERRORLEVEL% LSS 8 SET ERRORLEVEL = 0"
-        working-directory: ./out
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./out
+          force_orphan: true
